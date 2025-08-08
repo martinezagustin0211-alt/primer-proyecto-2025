@@ -104,3 +104,24 @@ header{
 }
 
 
+.hour{
+    border: solid rgb(92, 89, 89);
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(230, 225, 235);
+    font-size: 28px;
+    border: 0px;
+}
+
+
+.img-header{
+    width: 900px;
+    display: flex;
+    float: right;
+    position: absolute;
+    top: 120px;
+    right: 20px;
+}
+
+
+
