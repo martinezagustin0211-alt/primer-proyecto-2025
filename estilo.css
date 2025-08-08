@@ -4,8 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "DM+Sans";
-
+    font-family: "DM sans";
 }
 
 header{
@@ -17,17 +16,19 @@ header{
     padding: 0 24px;
 }
 
-
 .btn-header{
+    display: flex;
+    justify-content: center;
     background-color: white;
     border: none;
     font-size: 16px;
     font-weight: bold;
+    gap: 8px;
 }
 
 
 .header-nav{
-    color: black;
+    color: rgb(0, 0, 0);
     display: flex;
     gap: 50px;
 }
@@ -39,11 +40,21 @@ header{
     gap: 20px;
 }
 
+.flag-arg-img{
+    width: 40px;
+    cursor: pointer;
+}
+
+
 .header-span-account{
-    border: 2px solid black;
-    border-radius: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
     padding: 10px;
     font-weight: bold;
+}
+.header-span-account:hover{
+cursor: pointer;
+border: transparent;
 }
 
 .box1{
@@ -122,6 +133,4 @@ header{
     top: 120px;
     right: 20px;
 }
-
-
 
