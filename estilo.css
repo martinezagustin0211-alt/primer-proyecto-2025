@@ -16,6 +16,13 @@ header{
     padding: 0 24px;
 }
 
+.nav-iz{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
 .btn-header{
     display: flex;
     justify-content: center;
@@ -26,11 +33,21 @@ header{
     gap: 8px;
 }
 
+/* links del navegador */
 
 .header-nav{
-    color: rgb(0, 0, 0);
     display: flex;
     gap: 50px;
+}
+.header-nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-nav a:hover{
+transition: 0,3s;
+text-decoration: none;
+color: #848384;
 }
 
 .nav-de{
@@ -54,7 +71,8 @@ header{
 }
 .header-span-account:hover{
 cursor: pointer;
-border: transparent;
+border: 1px solid rgb(212, 212, 212) ;
+color: rgb(117, 116, 117);
 }
 
 .box1{
