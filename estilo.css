@@ -54,3 +54,21 @@ header{
 }
 
 
+.color-numb{
+    color: #683ee6;
+}
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.price{
+    padding: 20PX;
+    flex-direction: column;
+    display: flex;
+}
+
+
