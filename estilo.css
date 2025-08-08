@@ -25,3 +25,18 @@ header{
     font-weight: bold;
 }
 
+
+.header-nav{
+    color: black;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-de{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+
