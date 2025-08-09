@@ -152,3 +152,10 @@ color: rgb(117, 116, 117);
     right: 20px;
 }
 
+/*section-2*/
+
+.section-cards-container{
+    display: flex;
+    justify-content: center;
+}
+
