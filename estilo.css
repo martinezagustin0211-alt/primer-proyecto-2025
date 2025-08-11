@@ -256,12 +256,12 @@ color: rgb(117, 116, 117);
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: burlywood;
+    background-color: #f4f5ff;
     padding: 50px;
+    gap: 25px;
 }
 
 .div-footer-social{
-    background-color: #848384;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -292,4 +292,25 @@ color: rgb(117, 116, 117);
 .hostinger-footer img{
     width: 35px;
 }
+
+.div-footer-cards{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-footer-cards img{
+    width: 60px;
+    border-radius: 10px;
+    border: 1px solid #f5f6ff;
+}
+
+.div-cards{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
 
