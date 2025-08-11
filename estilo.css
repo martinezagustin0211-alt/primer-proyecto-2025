@@ -257,23 +257,39 @@ color: rgb(117, 116, 117);
     align-items: center;
     flex-direction: column;
     background-color: burlywood;
+    padding: 50px;
 }
 
 .div-footer-social{
     background-color: #848384;
     display: flex;
     align-items: center;
-    width: 80%;
     justify-content: space-between;
+    width: 80%;
 }
 
 .icon-footer{
     display: flex;
     justify-content: center;
+    gap: 20px;
+}
+
+.icon-footer i{
+    color: white;
+    background-color: black;
+    padding: 5px 8px;
+    border-radius: 10px;
 }
 
 .hostinger-footer{
     display: flex;
     align-items: center;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    gap: 10px;
+}
+
+.hostinger-footer img{
+    width: 35px;
 }
 
