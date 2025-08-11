@@ -160,19 +160,23 @@ color: rgb(117, 116, 117);
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 50px;
 }
 
 .section-title-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 40px;
     gap: 30px;
     
 }
 
 
 .section-title-container p{
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.5;
 }
 
 .section-cards-container{
@@ -183,7 +187,6 @@ color: rgb(117, 116, 117);
     gap: 30px;
     width: 1180px;
     max-width: 1180px;
-    padding: 90px;
 }
 
 .card-container{
@@ -191,6 +194,21 @@ color: rgb(117, 116, 117);
     padding: 70px 40px;
     border-radius: 10px;
     flex: 1;
+}
+
+.card-container p{
+    padding: 15px;
+}
+
+.section-btn{
+    color: white;
+    background-color: #683ee6;
+    border-radius: 5px;
+    border: transparent;
+    padding: 15px 50px;
+    cursor: pointer;
+    margin-top: 25px;
+    font-weight: bold;
 }
 
 
