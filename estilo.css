@@ -303,7 +303,7 @@ color: rgb(117, 116, 117);
 .div-footer-cards img{
     width: 60px;
     border-radius: 10px;
-    border: 1px solid #f5f6ff;
+    border: 1px solid #aee9fb;
 }
 
 .div-cards{
@@ -312,5 +312,16 @@ color: rgb(117, 116, 117);
     gap: 10px;
 }
 
+.div-cards a{
+    text-decoration: none;
+    color:#683ee6;
+    font-weight: bold;
+}
 
+.div-text a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
 
