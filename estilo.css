@@ -186,6 +186,22 @@ color: rgb(117, 116, 117);
     margin-top: -500px;
 }
 
+.btn-kodee{
+    display: flex;
+    gap: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background-color: #683ee6;
+    padding: 12px;
+    border-radius: 25px;
+    border: transparent;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+
 /*section-2*/
 
 .section-container2{
@@ -279,6 +295,7 @@ color: rgb(117, 116, 117);
     background-color: black;
     padding: 5px 8px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .hostinger-footer{
@@ -326,6 +343,8 @@ color: rgb(117, 116, 117);
 }
 
 .div-footer-text{
+    border-top: 1px solid  #aee9fb;
+    padding: 30px 5px;
     width: 80%;
     display: flex;
     justify-content: space-between;
