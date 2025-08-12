@@ -429,7 +429,10 @@ color: rgb(117, 116, 117);
     .div-footer-cards{
         display: flex;
         flex-direction: column-reverse;
-        width: 40vh;
+        justify-content: flex-start;
+        align-items: center;
+        width: 50vh;
+        padding-right: 80px;
         margin: 0;
         gap: 25px;
     }
@@ -439,4 +442,16 @@ color: rgb(117, 116, 117);
         display: flex;
         flex-wrap: wrap;
     }
+
+    .div-footer-text{
+        display: flex;
+        flex-direction: column;
+        width: 50vh;
+        gap: 10px;
+    }
+
+    .div-footer-text p{
+        width: 53vh;
+    }
+
 }
