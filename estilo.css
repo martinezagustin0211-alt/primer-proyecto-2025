@@ -371,27 +371,58 @@ color: rgb(117, 116, 117);
         font-size: 30px;
     }
 
+    header{
+        height: 50%;
+        padding: 0 10px;
+    }
+
     .box1{
-        font-size: 5px;
         background-color: #432698;
         margin: 0;
         height: 90vh;
+        padding: 5px;
     }
 
-    .btn, .hour{
+    .section-div-text{
+        display: flex;
+        gap: 5px;
+    }
+
+    .section-div-text h1{
+        font-size: 25px;
+    }
+
+    .section-div-text h2{
+        font-size: 18px;
+    }
+
+    .list{
+        display: flex;
+        gap: 3px;
+    }
+
+
+    .btn{
         font-size: 15px;
-        
+        width: 40%;
+        height: auto;
+    }
+    
+    .hour{
+        font-size: 16px;
     }
 
     .img-main{
         background-color: aqua;
+        display: flex;
+        justify-content: center;
+        height: 90vh;
+        align-items: flex-end;
     }
 
     .img-main img{
         width: 450px;
         padding: 80px;
-        display: flex;
-        
     }
 
     .section-container2{
