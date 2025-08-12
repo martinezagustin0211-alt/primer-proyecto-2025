@@ -28,6 +28,10 @@ header{
     gap: 50px;
 }
 
+.header-icon-list{
+    display: none;
+}
+
 .div-icon img{
     width: 25px;
     cursor: pointer;
@@ -353,4 +357,29 @@ color: rgb(117, 116, 117);
 
 .div-footer-text p{
     width: 70%;
+}
+
+@media (max-width:480px) {
+    .header-nav, .nav-de{
+        display: none;
+    }
+
+    .header-icon-list{
+        display: flex;
+        justify-content: flex-end;
+        width: 38vh;
+        font-size: 30px;
+    }
+
+    .box1{
+        font-size: 5px;
+        background-color: #432698;
+        margin: 0;
+    }
+
+
+    .img-main{
+        position: relative;
+        top: 0;
+        left: 0;
 }
