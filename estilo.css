@@ -543,6 +543,7 @@ color: rgb(117, 116, 117);
 
     .div-footer-text{
         width: 35vh;
+        margin: 15px;
     }
 
     .div-footer-text p{
