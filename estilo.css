@@ -489,3 +489,50 @@ color: rgb(117, 116, 117);
     }
 
 }
+
+@media (min-width:320px){
+
+    .header-icon-list{
+        width: 20vh;
+    }
+
+    .foot-warrantie{
+        padding: 20px;
+    }
+
+    .img-main img{
+        width: 300px;
+    }
+
+    .section-container2{
+        font-size: 15px;
+        padding: 30px;
+    }
+
+    .section-cards-container{
+        padding: 20px;
+    }
+
+    .card-container{
+        margin: 20px;
+    }
+
+    .section-footer{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .icon-footer{
+        display: flex;
+        gap: 20px;
+    }
+
+    .hostinger-footer{
+        width: 20vh;
+        font-size: 15px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+}
