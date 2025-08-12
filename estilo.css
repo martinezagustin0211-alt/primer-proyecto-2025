@@ -490,7 +490,7 @@ color: rgb(117, 116, 117);
 
 }
 
-@media (min-width:320px){
+@media (max-width:320px){
 
     .header-icon-list{
         width: 20vh;
@@ -533,6 +533,9 @@ color: rgb(117, 116, 117);
         font-size: 15px;
         display: flex;
         justify-content: flex-start;
+    }
+
+    .div-cards{
     }
 
 }
