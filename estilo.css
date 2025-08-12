@@ -409,7 +409,34 @@ color: rgb(117, 116, 117);
         width: 45vh;
     }
 
-    .card-container{
+    .div-footer-social{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
 
+    .hostinger-footer{
+        width: 50vh;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+
+    .icon-footer{
+        gap: 60px;
+    }
+
+    .div-footer-cards{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 40vh;
+        margin: 0;
+        gap: 25px;
+    }
+
+    .div-cards{
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
