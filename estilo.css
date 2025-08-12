@@ -142,7 +142,7 @@ color: rgb(117, 116, 117);
 
 
 
-.foot-g{
+.foot-warrantie{
     padding: 20px;
 }
 
@@ -377,9 +377,8 @@ color: rgb(117, 116, 117);
     }
 
     .box1{
-        background-color: #432698;
         margin: 0;
-        height: 90vh;
+        height: 95vh;
         padding: 5px;
     }
 
@@ -412,8 +411,11 @@ color: rgb(117, 116, 117);
         font-size: 16px;
     }
 
+    .foot-warrantie{
+        padding-bottom: 90px;
+    }
+
     .img-main{
-        background-color: aqua;
         display: flex;
         justify-content: center;
         height: 90vh;
@@ -421,8 +423,9 @@ color: rgb(117, 116, 117);
     }
 
     .img-main img{
+        margin: 0;
         width: 450px;
-        padding: 80px;
+        padding: 10px;
     }
 
     .section-container2{
