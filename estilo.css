@@ -535,7 +535,17 @@ color: rgb(117, 116, 117);
         justify-content: flex-start;
     }
 
-    .div-cards{
+    .div-footer-cards{
+        width: 45vh;
+        padding: 20px 55px;
+    }
+
+    .div-footer-text{
+        width: 35vh;
+    }
+
+    .div-footer-text p{
+        width: 35vh;
     }
 
 }
