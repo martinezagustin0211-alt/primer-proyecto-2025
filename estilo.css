@@ -375,11 +375,41 @@ color: rgb(117, 116, 117);
         font-size: 5px;
         background-color: #432698;
         margin: 0;
+        height: 90vh;
     }
 
+    .btn, .hour{
+        font-size: 15px;
+        
+    }
 
     .img-main{
-        position: relative;
-        top: 0;
-        left: 0;
+        background-color: aqua;
+    }
+
+    .img-main img{
+        width: 450px;
+        padding: 80px;
+        display: flex;
+        
+    }
+
+    .section-container2{
+        display: flex;
+        gap: 15px;
+    }
+
+    .section-title-container{
+        padding: 0px 15px;
+    }
+
+    .section-cards-container{
+        display: flex;
+        flex-direction: column;
+        width: 45vh;
+    }
+
+    .card-container{
+
+    }
 }
