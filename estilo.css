@@ -359,7 +359,8 @@ color: rgb(117, 116, 117);
     width: 70%;
 }
 
-@media (max-width:480px) {
+@media (max-width:768px){
+
     .header-nav, .nav-de{
         display: none;
     }
@@ -367,43 +368,34 @@ color: rgb(117, 116, 117);
     .header-icon-list{
         display: flex;
         justify-content: flex-end;
-        width: 38vh;
+        width: 70vh;
         font-size: 30px;
     }
 
     header{
         height: 50%;
-        padding: 0 10px;
+        padding: 10px;
     }
 
     .box1{
         margin: 0;
         height: 95vh;
-        padding: 5px;
+        padding: 20px;
     }
 
     .section-div-text{
-        display: flex;
-        gap: 5px;
+        padding: 0 10px;
     }
 
     .section-div-text h1{
-        font-size: 25px;
-    }
-
-    .section-div-text h2{
-        font-size: 18px;
-    }
-
-    .list{
-        display: flex;
-        gap: 3px;
+        font-size: 24px;
+        width: 60vh;
     }
 
 
     .btn{
         font-size: 15px;
-        width: 40%;
+        width: 30%;
         height: auto;
     }
     
@@ -440,6 +432,129 @@ color: rgb(117, 116, 117);
     .section-cards-container{
         display: flex;
         flex-direction: column;
+        width: 80vh;
+    }
+
+    .div-footer-social{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+
+    .hostinger-footer{
+        width: 50vh;
+        
+    }
+
+    .icon-footer{
+        gap: 60px;
+    }
+
+    .div-text{
+        width: 60vh;
+    }
+
+    .div-footer-cards{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        width: 50vh;
+        padding-right: 80px;
+        margin: 0;
+        gap: 25px;
+    }
+
+    .div-cards{
+        padding: 0;
+    }
+
+    .div-footer-text{
+        display: flex;
+        flex-direction: column;
+        width: 60vh;
+        gap: 10px;
+    }
+
+    .div-footer-text p{
+        width: 60vh;
+    }
+
+}
+
+
+@media (max-width:480px) {
+    .header-nav, .nav-de{
+        display: none;
+    }
+
+    .header-icon-list{
+        display: flex;
+        justify-content: flex-end;
+        width: 38vh;
+        font-size: 30px;
+    }
+
+    header{
+        height: 50%;
+        padding: 0 10px;
+    }
+
+    .box1{
+        margin: 0;
+        height: 95vh;
+        padding: 5px;
+    }
+
+    .section-div-text h1{
+        font-size: 24px;
+        width: 40vh;
+    }
+
+    .section-div-text h2{
+        font-size: 18px;
+    }
+
+    .btn{
+        font-size: 15px;
+        width: 40%;
+        height: auto;
+    }
+    
+    .hour{
+        font-size: 16px;
+    }
+
+    .foot-warrantie{
+        padding-bottom: 90px;
+    }
+
+    .img-main{
+        display: flex;
+        justify-content: center;
+        height: 90vh;
+        align-items: flex-end;
+    }
+
+    .img-main img{
+        margin: 0;
+        width: 450px;
+        padding: 10px;
+    }
+
+
+    .section-container2{
+        display: flex;
+        gap: 15px;
+    }
+
+    .section-title-container{
+        padding: 0px 15px;
+    }
+
+    .section-cards-container{
+        display: flex;
+        flex-direction: column;
         width: 45vh;
     }
 
@@ -458,6 +573,10 @@ color: rgb(117, 116, 117);
 
     .icon-footer{
         gap: 60px;
+    }
+
+    .div-text{
+        width: 40vh;
     }
 
     .div-footer-cards{
@@ -480,7 +599,7 @@ color: rgb(117, 116, 117);
     .div-footer-text{
         display: flex;
         flex-direction: column;
-        width: 50vh;
+        width: 55vh;
         gap: 10px;
     }
 
@@ -490,7 +609,7 @@ color: rgb(117, 116, 117);
 
 }
 
-@media (max-width:320px){
+@media (max-width:370px){
 
     .header-icon-list{
         width: 20vh;
